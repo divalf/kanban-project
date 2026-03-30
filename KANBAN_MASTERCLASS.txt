@@ -1,0 +1,91 @@
+PROJETO KANBAN MASTERCLASS:
+=====================================================================================================================================================================================================
+PROMPT 1:
+
+Atue como um desenvolvedor full-stack sênior. Quero construir um gerenciador de projetos estilo Kanban.
+A Regra de Negócio Principal (O Diferencial):
+Cada card no Kanban representa um projeto e possui o e-mail do cliente vinculado. 
+Quando eu arrastar o card para a próxima coluna, o sistema deve registrar isso e disparar um evento. 
+Este evento pegará o resumo de todas as notas inseridas no card durante a etapa anterior e enviará um e-mail automático com as atualizações para o cliente.
+Nosso roteiro de desenvolvimento [Vibe Coding Loop] será feito passo a passo. Não tente criar tudo de uma vez.
+O nosso fluxo será o seguinte:
+Design de Inspiração: Primeiro, vamos usar uma captura de tela que vou enviar como base visual.
+Abordagem e Funcionalidades: Depois, vamos criar a interface do usuário (UI) do Kanban com funcionalidade de arrastar e soltar, as transições visuais e a estrutura para adicionar notas nos cards.
+Back-end: Em seguida, vamos fazer a interface rodar perfeitamente no localhost usando dados fictícios (mock data).
+Banco de Dados: Depois que a UI estiver pronta, vamos conectar ao Supabase e criar as tabelas (colunas, cards, histórico).
+Autenticação: Na sequência, vamos implementar o sistema de login.
+Deploy: Mais para frente, vamos subir a aplicação na VPS da Hostinger.
+Testes Finais e Landing Page: Por fim, vamos fazer os testes finais das funcionalidades e criar a landing page.
+Aja apenas como um planejador agora. 
+Apenas confirme que entendeu o nosso plano de ação e me avise para eu enviar a captura de tela para começarmos elaborando pelo Passo 1 (Design de inspiração).
+Crie um plano completo para a criação deste app.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+PROMPT 2:
+
+Eu quero remover do menu lateral esquerdo as abas:
+- APIs
+- Assinatura
+- Ajuda e Suporte
+
+Eu quero também ser capaz de adicionar novos cards no meu Kanban.
+
+No menu superior eu quero remover as abas:
+- Por Total de Tarefas
+- Tarefas extras
+- Tarefas concluídas
+
+Quando eu clicar em um dos cards no meu Kanban, eu quero que um pop-up seja aberto para conseguir visualizar todas as informações 
+e todos os detalhes sobre cada um desses cards que representam um projeto.
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+PROMT 3:
+
+1. No menú superior, substituir a funcionalidde "Vencimento" por Total de Tarefas
+2. No menú superiir, excluir o botão "Compartihar" e o Botão "+"
+3. Substituir o texto da imagem por "Em Revisão"
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+PROMPT 4:
+
+O botão pequisa no menú superior, não estão funcional, quero ser capaz de pesquisar os cards / projetos dentro do kanban. Faça.
+A link usuário no menú esquerdo não está funcional. Eu quero que toda vez que um e-mail for adicionado dentro de um card, o respectivo
+cliente seja adicionado ao campo usuário.
+Quero que as Configurações possuem itens funcionais importantes para o aplicativo.
+Quero que na Aba Inicio tenha um dashboard, para acompanhar de forma geral , todos os projetos que já realizei ou estou realizando.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+PROMPT 5:
+
+Quero poder adicionar colunas ao meus projetos
+---------------------------------------------------
+
+PROMPT 6:
+
+Crie o arquivo GEMINI.md que encapsule de forma eficaz o que é este app, tudo o que fizemos até agora, e forneça instruções para modelos 
+futuros caso eu precise passar isso adiante.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+GITHUB:
+
+REPOSITÓRIO
+https://github.com/divalf/kanban-project
+
+
+git remote add origin https://github.com/divalf/kanban-project.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
